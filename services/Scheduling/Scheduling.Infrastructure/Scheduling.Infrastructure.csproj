@@ -17,7 +17,12 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<<< HEAD:services/Scheduling/Scheduling.Infrastructure/Scheduling.Infrastructure.csproj
     <ProjectReference Include="..\Scheduling.Domain\Scheduling.Domain.csproj" />
     <ProjectReference Include="..\Scheduling.Application\Scheduling.Application.csproj" />
+========
+    <ProjectReference Include="..\Patient.Domain\Patient.Domain.csproj" />
+    <ProjectReference Include="..\Patient.Application\Patient.Application.csproj" />
+>>>>>>>> eadca8ebd51cea47f682fc8cfb8d032bc1fb76a2:services/Patient/Patient.Infrastructure/Patient.Infrastructure.csproj
   </ItemGroup>
 </Project>

@@ -9,7 +9,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.0" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<<< HEAD:services/Scheduling/Scheduling.API/Scheduling.API.csproj
     <ProjectReference Include="..\Scheduling.Application\Scheduling.Application.csproj" />
     <ProjectReference Include="..\Scheduling.Infrastructure\Scheduling.Infrastructure.csproj" />
+========
+    <ProjectReference Include="..\Patient.Application\Patient.Application.csproj" />
+    <ProjectReference Include="..\Patient.Infrastructure\Patient.Infrastructure.csproj" />
+>>>>>>>> eadca8ebd51cea47f682fc8cfb8d032bc1fb76a2:services/Patient/Patient.API/Patient.API.csproj
   </ItemGroup>
 </Project>
